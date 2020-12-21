@@ -1,0 +1,94 @@
+#furniture {
+  background-image: url("images/opendesk.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+  width: 100%;
+  background-position: center center;
+  /* overlay/opacity */
+}
+
+#furniture .padding-top {
+  padding-top: 10em;
+  color: white;
+}
+
+#furniture .bg-warning {
+  background-color: grey !important;
+  color: white;
+  margin-bottom: 50px;
+}
+
+#product {
+  background-color: #f1f1f1;
+  padding: 100px 0px;
+  text-align: center;
+}
+
+#product .product-col {
+  border: 5px solid #ecebeb;
+}
+
+#product .product-col:hover {
+  border: 5px solid black;
+}
+
+#platform {
+  background-image: url(../images/man.jpg);
+  height: 660px;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+}
+
+#works {
+  background-color: #f1f1f1;
+  padding: 90px 0px;
+  text-align: center;
+}
+
+#works .works-col {
+  border: 5px solid #ecebeb;
+}
+
+#works .works-col:hover {
+  border: 5px solid black;
+}
+
+#clients {
+  padding: 80px;
+}
+
+#clients .works-col:hover {
+  border: 5px solid black;
+}
+
+#caseStudy {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/peopleBench.jpg);
+  height: 605px;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+}
+
+#peopleBench .padding-top {
+  padding: 10rem;
+  color: white;
+  font-size: 10px;
+}
+
+#ref .container span {
+  font-style: italic;
+}
+
+#footer {
+  /* height: 450px; */
+  background: grey;
+}
+
+hr.new2 {
+  border-top: 1px dashed white;
+}
